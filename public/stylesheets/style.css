@@ -1,0 +1,38 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a:active, a:hover {
+	text-decoration: none;
+}
+
+.box {
+	border:2px solid black;
+	border-radius:5px;
+	height:100px;
+	min-width:100px;
+	float:left;
+	font-size:200%;
+	line-height:90px;
+	padding-right:2%;
+	padding-left:2%;
+	white-space:nowrap;
+}
+
+.box:hover {
+	background:black;
+	opacity:0.6;
+	cursor:pointer;
+	overflow:hidden;
+	white-space:nowrap;
+}
+
+.bigbox {
+	border:5px solid black;
+	height:200px;
+	min-width:200px;
+	font-size:250%;
+	line-height: 180px;
+	white-space:nowrap;
+}
